@@ -1,0 +1,14 @@
+body {
+    background-color: gray;
+    color: black;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+h1 (
+    background-color: black;
+    color: white;
+)
+p (
+    padding: 20px;
+)
