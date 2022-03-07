@@ -1,14 +1,12 @@
 body {
-    background-color: gray;
-    color: black;
     font-family: Helvetica;
     font-size: 26px;
+    color: blue;
 }
 
 img {
     width: 400px;
     height: 400px;
-    border: 10px solid green;
 }
 
 .reverse {
