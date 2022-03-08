@@ -1,18 +1,35 @@
 body {
-    font-family: Helvetica;
+    font-family: 'Syne Mono', monospace;
     font-size: 26px;
-    color: blue;
+    color: #0C2D48;
+    background-color: #B1D4E0;
 }
-
 img {
-    width: 400px;
-    height: 400px;
-}
-
-.reverse {
-    background-color: blue !important;
-    color: white;
+    width: 20%;
+    height: 20%;
 }
 p {
-    padding: 20px;
+    padding: 50px;
+    margin: 25px;
+    border-bottom: 5px solid #145DA0;
+}
+.header {
+    background-color: #145DA0;
+    color: white;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 5px;
+}
+.footer {
+    background-color: #145DA0;
+    color: white;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 5px;
+}
+.pictures {
+    background-color: #2E8BC0;
+    margin: 25px;
+    border-radius: 5px;
+    justify-content: space-around;
 }

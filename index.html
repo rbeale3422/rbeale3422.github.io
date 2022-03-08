@@ -2,20 +2,38 @@
 <html>
     <head>
         <title>About <Menu:c></Menu:c></title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
     </head>
-    <body>
-        <h1 class="reverse">Facts About Me</h1>
-        <p>
-            My name is Mr. Beale. I am a first year Computer
-            Science teacher at Pioneer Technology and Arts Academy.
-            I live and work in Fate.
-        </p>
-        <p>Below are some pictures from my life: wife, workout, and dog</p>
-        <div>
-            <img src="beauty.jpg">
-            <img src="beast_mode.jpg">
-            <img src="Missy.jpg"
+    <body onload="PrintDate()">
+        <div class="header"
+            <h1>Facts About Me</h1>
+        </div>
+        <div class="content">
+            <p>
+                My name is <a href="mailto:rbeale@ptaaschool.org">Mr. Beale</a>.
+                I am a first year Computer Science teacher at Pioneer Technology
+                and Arts Academy. My favorite part of my job is helping my students understand
+                how all the technology they take for granted is implemented.
+            </p>
+            <p>I have many passions and hobbies. My first passion is my family
+                (wife, son, and two dogs). I also love all things technology:
+                video games, programming, voice-activated assistants, and building
+                custom computers. My hobbies include reading, fishing and weightlifting.
+            </p>
+            <img src="https://placekitten.com/400/400">
+        </div>
+        <div class="pictures">
+                <img src="beauty.jpg" alt="my wife and I">
+                <img src="beast_mode.jpg" alt="leg workout">
+                <img src="Missy.jpg" alt="our dog Missy">
+                <img src="Oslo.jpg" alt="our dog Oslo">
+        </div>
+        <div class="footer">
+            <p id="date"></p>
         </div>
     </body>
 </html>
