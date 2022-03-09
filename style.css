@@ -31,5 +31,6 @@ p {
     background-color: #2E8BC0;
     margin: 25px;
     border-radius: 5px;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
 }
