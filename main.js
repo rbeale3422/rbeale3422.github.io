@@ -7,5 +7,4 @@ function PrintDate() {
     var yyyy = today.getFullYear();
     today = currentMonth + ' ' + dd + ', ' + yyyy;
     document.getElementById('date').innerText = today;
-    //console.log(date)
 }
